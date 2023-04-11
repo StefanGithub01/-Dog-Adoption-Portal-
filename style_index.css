@@ -1,0 +1,99 @@
+* {box-sizing: border-box;}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background: url("index_dog_photo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+
+/* aspect meniu */
+.topnav {
+
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+/* linkuri meniu */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: sans-serif;
+}
+
+/* linkuri meniu hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .login-container {
+  float: right;
+}
+
+.topnav input[type="text"], input[type="password"] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  width: 150px; 
+}
+
+.topnav .login-container button {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .login-container button:hover {
+  background: #ccc;
+}
+
+.test {
+  font-family: sans-serif;
+  color:rgb(0, 0, 0);
+  font-size: 30px;
+  
+}
+
+.title {
+
+  border-bottom: 1px solid #ffffff;
+  margin-bottom: 5px;
+  margin-top: 20px;
+  margin-left: 5px;
+  display: inline-block;
+}
+
+h1,p,h3,h2 {
+
+  margin-left: 5px;
+
+}
+
+table, th, td {
+  border:1px solid rgb(0, 0, 0);
+  border-collapse: collapse;
+  background-color: #ffffff;
+  
+}
+
+
